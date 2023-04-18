@@ -1,0 +1,5 @@
+print("Это калькулятор веса тела")
+height = float(input("Введите ваш рост в метрах: "))
+weight = float(input("Введите ваш вес в килограммах: "))
+bmi = weight / (height ** 2)
+print("Ваш индекс массы тела: ", round(bmi, 2))
